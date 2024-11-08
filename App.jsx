@@ -5,6 +5,7 @@ import Routes from "./Routes";
 
 import { QueryProvider, PolarisProvider, NavigationBar } from "./components";
 import StoreRegistration from './pages/StoreRegistration';
+import StoreList from './pages/StoreList';
 import './App.css';  
 
 

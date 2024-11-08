@@ -231,3 +231,159 @@
     background-color: #ddd;
     color: #333;
   }
+  /* store list page start */
+  .store-list-wrap{
+   width:100%;
+   position: relative;
+   background: #fff;
+    margin-top: 40px;
+  }
+  .store-list-main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .sl-store-left h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .app-container {
+    display: flex;    
+  }  
+  .store-list-container {
+    flex: 1;
+    padding: 20px;
+  }  
+  .store-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }  
+  .store-list-map {
+    display: flex;
+    gap: 20px;
+  }  
+  .store-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }  
+  .store-card {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }  
+  .number-shop {
+    background: #95ebeb70;
+    padding: 10px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    color: #007bff;
+    border-radius: 5px;
+  }
+  .store-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }  
+  .store-card button {
+    margin-top: 10px;
+    margin-right: 5px;
+  }  
+  .store-list-placeholder {
+    width: 50%;
+    height: 400px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #888;
+  } 
+  .deatis-btn-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+  .st-list-button{
+    width:100%;
+    padding: 8px 12px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd
+  }
+  .st-list-button-active{
+    background-color: #007bff;
+    color: white;
+  }
+  .distnace-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .distnace-flex span {
+    background: #ddd;
+    padding: 5px;
+ }
+ .status-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.status-toggle label {
+  font-size: 14px;
+  color: #555;
+}
+.status-toggle label.active {
+  color: #000; /* Active color for selected state */
+  font-weight: bold;
+}
+.list-toggle-switch {
+  width: 40px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.list-toggle-switch .list-toggle-circle {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+.list-toggle-switch .list-toggle-circle.open {
+  left: 20px; 
+  background-color: #007bff;
+}
+.list-store-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.store-image{
+  width:40%;
+}
+.store-image img {
+  max-width: 100%;
+}
+.store-deatils{
+  width:60%;
+}
+   /* store list page end */
