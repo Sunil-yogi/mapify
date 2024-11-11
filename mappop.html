@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Popup</title>
+    <style>       
+        .map-popup-box {
+            width: 300px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            text-align: center;
+        }        
+        .map-box-icon {
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+        .map-box-icon img {
+            width: 40px;
+            height: 40px;
+        }
+        .map-popup-box-content {
+            padding: 20px;
+			text-align:left;
+        }
+        .map-popup-box-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }       
+        .map-popup-box-info {
+            color: #555;
+            margin-bottom: 10px;
+        }        
+        .map-popup-box-info-buttons {
+			display: flex;    
+			gap: 10px;
+			padding: 0px 5px;
+		}
+        .map-popup-box-info-buttons button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-top: 1px solid #ddd;
+            outline: none;
+        }       
+    </style>
+</head>
+<body>
+
+<div class="map-popup-box">
+    <div class="map-box-icon">        
+        <img src="https://via.placeholder.com/40" alt="Icon">
+    </div>
+    <div class="map-popup-box-content">
+        <div class="map-popup-box-title">The Cozy Corner</div>
+        <div class="map-popup-box-info">
+            📍 123 Main Street, Anytown, CA 12345
+        </div>
+        <div class="map-popup-box-info">
+            📞 +1 (123) 456-7890
+        </div>
+        <div class="map-popup-box-info">
+            ✉️ nevaeh.simmons@example.com
+        </div>
+        <div class="map-popup-box-info">
+            🕒 Mon-Sun<br>01:00 AM - 07:00 PM
+        </div>
+    </div>
+    <div class="map-popup-box-info-buttons">
+        <button onclick="window.location.href='#'">Zoom</button>
+        <button onclick="window.location.href='#'">Direction</button>
+        <button onclick="window.location.href='#'">Website</button>
+    </div>
+</div>
+
+</body>
+</html>
