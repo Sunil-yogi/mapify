@@ -6,7 +6,14 @@ import Routes from "./Routes";
 import { QueryProvider, PolarisProvider, NavigationBar } from "./components";
 import StoreRegistration from './pages/StoreRegistration';
 import StoreList from './pages/StoreList';
+import Categories from './pages/Categories';
+import StoreLocatorSettings from './pages/StoreLocatorSettings';
 import './App.css';  
+import './Categories.css'; 
+import './SettingsPage.css';
+import './SettingsDrawer.css';
+import './StoreLocatorSettings.css';
+
 
 
 

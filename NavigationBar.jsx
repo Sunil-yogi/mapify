@@ -9,10 +9,10 @@ export function NavigationBar() {
         <nav>
           <a href="/">Home</a>
           <a href="/StoreRegistration" className="active">Store Registration</a>
-          <a href="#settings">Settings</a>
+          <a href="/StoreLocatorSettings">Settings</a>
           <a href="#pricing">Pricings</a>
           <a href="/StoreList">Store List</a>
-          <a href="#categories">Categories</a>
+          <a href="/Categories">Categories</a>
         </nav>
       </header>
     );
