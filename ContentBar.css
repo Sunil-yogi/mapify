@@ -1,0 +1,40 @@
+.dashnoard-rght-content {    
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }  
+  .dashnoard-rght-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }  
+  .dashnoard-rght-content-sections {
+    display: flex;
+    gap: 20px;   
+  }  
+  .dashnoard-rght-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+  }  
+  .dashnoard-rght-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }  
+  .dashnoard-rght-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }  
+  .dashnoard-rght-section ul li {
+    margin-bottom: 5px;
+  }
+  @media (max-width: 1024px) {
+   .dashnoard-rght-content{
+     margin-top: 50px;
+   }
+ }
+  @media (max-width: 480px) {
+  .dashnoard-rght-content-sections {    
+    flex-wrap:wrap;
+  }
+}
