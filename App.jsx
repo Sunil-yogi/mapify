@@ -8,11 +8,13 @@ import StoreRegistration from './pages/StoreRegistration';
 import StoreList from './pages/StoreList';
 import Categories from './pages/Categories';
 import StoreLocatorSettings from './pages/StoreLocatorSettings';
+import Pricings from './pages/Pricings';
 import './App.css';  
 import './Categories.css'; 
 import './SettingsPage.css';
 import './SettingsDrawer.css';
 import './StoreLocatorSettings.css';
+import './Pricing.css';
 
 
 
